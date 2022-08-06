@@ -1,4 +1,4 @@
-//This is mine
+//This is my iCar 
 
 #include <vector>
 
@@ -120,5 +120,25 @@ void loop() {
 #endif
 }
 
+
+//////////////////////////////////////////////////////////////////////////////////
+
+void ObstacleAvoid ()
+{
+  int distance = front.getDistance();
+  if(distance > 0 && distance < 150)
+  {
+    Serial.println("An obstacle is detected ");
+    Serial.println("Stopping the car... ");
+     car.setSpeed(0);
+     delay(400);
+    Serial.println("Car is stopped. Rotating is in process.");
+    car.setSpeed(bSpeed);
+    car.setAngle (250);
+    delay(1000);
+    car.setSpeed(fSpeed);
+    car.setAngle (0);
+  }
+}
 
 //////////////////////////////////////////////////////////////////////////////////
