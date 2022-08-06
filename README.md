@@ -6,8 +6,8 @@
 # Get Started
 
 # Milestones
-* [Manual Control](https://www.github.com)
-* [Cruse Control](https://www.github.com)
+* [Manual Control](https://github.com/gusallaar/iCar/wiki/Manual-Control)
+* [Cruse Control](https://github.com/gusallaar/iCar/wiki/Cruse-Control)
 
 
 ## Android Studio
