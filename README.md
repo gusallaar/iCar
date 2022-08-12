@@ -3,10 +3,12 @@ This is the GitHub page for our smartcar platform name _iCar_. We have explained
 
 ## What?
 The _iCar_ is an interactive platform provides smart features for a virtual car to be controlled by the commands from the user and also send back some information about the surroundings, speed and travelled distance to the user through a communication channel.
+
 The main functionality of the _iCar_ are as follows: 
-* a
-* b
-* c
+* Control the car manually through the app
+* Check the car surrounding by the camera feed 
+* Automatically detects the obstacles and avoid them
+* Provide messages to the user about the status of the connection between car and app
 
 ## Why?
 The main objective of this software is to utilize and demonstrate the use of a real-time based embedded system in this case a functional user interface with the smart car emulator. One of our main goals is to implement a responsible GUI which can easily control all the functionality in the smart car emulator. Here we have also added practical based possible scenarios our system can go through. Some practical applications of this smartcart platform can be found in shopping malls when someone waits for his car to come and pick him up, semi-autonomous driving in which the driver needs to have an online meeting in the car and the car should find the least dangerous path to get to the destination.
