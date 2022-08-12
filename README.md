@@ -18,19 +18,41 @@ We're working on two platforms, an Arduino car and a mobile application. For the
 
 # Prerequisites
 
-# Get Started
+* Android device/emulator (Version: Android 9.0+)
+* Android Studio preinstalled on your computer
+* SMCE-gd preinstalled
+* MQTT localhost preinstalled and running
+
 
 # Milestones
 * [Manual Control](https://github.com/gusallaar/iCar/wiki/Manual-Control)
 * [Cruse Control](https://github.com/gusallaar/iCar/wiki/Cruse-Control)
 
+# Get Started
 
+## Downloads
+* [MQTT Broker](https://mosquitto.org/download/)
+* [Android Studio](https://developer.android.com/studio)
+* [SMCE](https://github.com/ItJustWorksTM/smce-gd/releases)
+
+## Clone
+* Get the Group 18 repository to your computer
+
+## SMCE
+* Once downloaded, start the SMCE-Godot application and press “Start Fresh” then press“+” to add a new sketch.
+* Open the file smarcar.ino file found at group-18/arduino/smartcar/smartcar.ino and select the sketch.
+* Compile the arduino file and press “Start”
 ## Android Studio
+* In Android studio’s welcome screen, press “open” and then choose SmartCarApp from group-18 folder found at group-18/SmartCarApp
+* Build the project by clicking on the green hammer icon or by pressing CTRL+F9.
+* Click on Tools > Device Manager. Click on “Create device” then on “New Hardware Profile” set the screen size to 6,53 inch and the resolution to 1080 x 2340 and ram to 1.53 GB. Press “finish”
+* Run the app with the created device
 
-## SMCE App
+## Mosquitto
+* Open a command prompt in the mosquitto directory
+* Start the MQTT broker locally by using the command _net start mosquitto_
 
-## MQTT Broker
 
 # Development Team
-
+Arezoo Allahyari (gusallaar@student.gu.se)
 
